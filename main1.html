@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="name">
+    <h1>SWE764- Hibatallah Osman salih</h1>
+    </div>
+    
+    <hr>
+    
+    <nav id="navigate">
+        <h2>Table of contents</h2>
+           
+    <h3><a href="details.html" target="_blank">Student details</a><br/><br/>
+    <details>
+        <summary>
+       <a href="syllabus.html" target="_blank">Course syllabus</a><br/><br/></summary>
+           <h4 onclick="window.open('software.html','_blank','width=150, height=150' );"><u>Software Engineering</u></h4>
+           <h4 onclick="window.open('HCI.html','_blank','width=150, height=150' );"><u>Human and computer interaction</u></h4>
+     </details>
+     <br/>    
+     
+    <a href="grades.html" target="_blank">Grades map</a>
+    <br/><br/>
+    <a href="mailto:HibatullahOsman@gmail.com">
+      <img src="HW1/download (4).jpeg" width="30" height="30" alt="Email me at HibatullahOsman@gmail.com"></a>
+      </h3>
+    </nav>
+   
+    <div id="maincontent">
+        <h1>IWA12457-Internet and web applications development</h1><hr>
+        <h2>Homework 1</h2>
+        <h3>presented by: </h3>
+        <h4>Hibatallah Osman salih</h4><br/>
+        <h3>presented to: </h3>
+        <h4>Dr.Ne&apos;ma osman</h4>
+        <a href="details.html"><input type="button" value="Next" "/></a>
+        <input name="previous" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Previous"/>
+    </div>
+    <footer>
+    Current date and time:
+    <input type="text" id="currentDateTime">
+<br><br>
+<script type="text/javascript">
+  <!--
+  //This is a javascript code.
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  var dateTime = date+' '+time;
+  document.getElementById("currentDateTime").value = dateTime;
+  //-->
+</script>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grades map</title>
+    <style>
+    
+        div {
+  display: none;
+  border: 1px solid #000;
+  height: 30px;
+  width: 290px;
+  margin-left: 10px;
+}
+
+a:hover+div {
+  display: block;
+}
+    </style>
+</head>
+<body>
+    <center>
+    <table border ="2px solid">
+    <thead>
+        <tr>
+            <th>
+                <a><img src="A.jpg" width="50px" height="50px""></a>
+                <div>A is given when the Student's grade is between 90 and 100</div>
+            </th>
+         
+            <th>
+                <a><img src="B.jpg" width="50px" height="50px" "></a>
+                <div>B is given when the Student's grade is between 80 and 90</div>
+            </th>
+         </tr>
+      </thead>
+    <tfoot>
+        <tr>
+            <th>
+                <a><img src="C.jpg" width="50px" height="50px" "></a>
+                <div>C is given when the Student's grade is between 70 and 80</div>
+            </th>
+            <th>
+                <a><img src="D.jpg" width="50px" height="50px" "></a>
+                <div>D is given when the Student's grade is between 60 and 70</div>
+            </th>
+       </tr>
+        </tfoot>
+    </table>
+    
+    </br></br></br>
+    
+      <input name="previous" action="action" onclick="window.history.go(-1); return false;" type="submit" value="Previous"/>
+      <a href="main1.html"><input type="button" value="Home" "/></a>
+      <input name="next" action="action" onclick="window.history.go(+1); return false;" type="submit" value="Next"/>
+     </center>
+      
+</body>
+</html>
